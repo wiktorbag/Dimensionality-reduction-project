@@ -1,13 +1,13 @@
-# 📊 Porównanie technik redukcji wielowymiarowości
+# Porównanie technik redukcji wielowymiarowości
 
-## 📌 Opis projektu
+## Opis projektu
 Celem projektu jest analiza i porównanie różnych metod redukcji wymiarowości na danych numerycznych. Skupiamy się na **ekstrakcji nowych zmiennych (feature extraction)** oraz ocenie jakości odwzorowania danych w przestrzeni o niższym wymiarze.
 
 Porównujemy zarówno metody klasyczne, jak i nowoczesne podejścia nieliniowe.
 
 ---
 
-## 🎯 Cele projektu
+## Cele projektu
 
 - Porównanie metod redukcji wymiarowości pod względem jakości reprezentacji danych  
 - Analiza wpływu redukcji na strukturę danych i separowalność klas  
@@ -16,7 +16,7 @@ Porównujemy zarówno metody klasyczne, jak i nowoczesne podejścia nieliniowe.
 
 ---
 
-## 🧠 Porównywane metody
+##  Porównywane metody
 
 ### 🔹 Klasyczne
 - PCA (Principal Component Analysis)  
@@ -42,7 +42,7 @@ Możliwe rozszerzenie:
 
 ---
 
-## ⚙️ Metodologia
+## Metodologia
 
 1. Wstępne przetwarzanie danych (standaryzacja)  
 2. Redukcja wymiarowości (do 2D / 3D)  
@@ -52,7 +52,7 @@ Możliwe rozszerzenie:
 
 ---
 
-## 📈 Metryki ewaluacji
+## Metryki ewaluacji
 
 - Trustworthiness  
 - Silhouette Score  
@@ -61,12 +61,8 @@ Możliwe rozszerzenie:
 
 ---
 
-## 📊 Wizualizacje
+##  Wizualizacje
 
 - Wykresy rozrzutu (2D, 3D)  
 - Porównania między metodami  
 - Analiza struktury danych po redukcji  
-
----
-
-## 📁 Struktura projektu
