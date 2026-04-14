@@ -18,18 +18,18 @@ Porównujemy zarówno metody klasyczne, jak i nowoczesne podejścia nieliniowe.
 
 ##  Porównywane metody
 
-### 🔹 Klasyczne
+###  Klasyczne
 - PCA (Principal Component Analysis)  
 - LDA (Linear Discriminant Analysis)  
 
-### 🔹 Nowoczesne / nieliniowe
+###  Nowoczesne / nieliniowe
 - t-SNE (t-distributed Stochastic Neighbor Embedding)  
 - UMAP (Uniform Manifold Approximation and Projection)  
 - Isomap  
 
 ---
 
-## 📂 Dane
+## Dane
 
 Projekt wykorzystuje dane numeryczne, np.:
 
@@ -56,7 +56,7 @@ Możliwe rozszerzenie:
 - NMI  
 - Silhouette Score  
 - Calinski-Harabsz
-- Generalised Dunn 
+- Generalised Dunn
 
 ---
 
@@ -64,4 +64,4 @@ Możliwe rozszerzenie:
 
 - Wykresy rozrzutu (2D, 3D)  
 - Porównania między metodami  
-- Analiza struktury danych po redukcji  
+- Analiza struktury danych po redukcji, np. clustering  
