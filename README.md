@@ -48,13 +48,12 @@ Możliwe rozszerzenie:
 2. Redukcja wymiarowości (do 2D / 3D)  
 3. Wizualizacja wyników  
 4. Ewaluacja jakości odwzorowania  
-5. (opcjonalnie) zastosowanie klasyfikacji  
 
 ---
 
 ## Metryki ewaluacji
 
-- Trustworthiness  
+- NMI  
 - Silhouette Score  
 - Accuracy klasyfikatora po redukcji  
 - Czas obliczeń  
