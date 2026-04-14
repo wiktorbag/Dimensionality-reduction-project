@@ -55,8 +55,8 @@ Możliwe rozszerzenie:
 
 - NMI  
 - Silhouette Score  
-- Accuracy klasyfikatora po redukcji  
-- Czas obliczeń  
+- Calinski-Harabsz
+- Generalised Dunn 
 
 ---
 
