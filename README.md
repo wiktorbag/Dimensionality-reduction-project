@@ -1,67 +1,8 @@
 # Porównanie technik redukcji wielowymiarowości
 
 ## Opis projektu
-Celem projektu jest analiza i porównanie różnych metod redukcji wymiarowości na danych numerycznych. Skupiamy się na **ekstrakcji nowych zmiennych (feature extraction)** oraz ocenie jakości odwzorowania danych w przestrzeni o niższym wymiarze.
+Celem projektu jest analiza i porównanie różnych metod redukcji wymiarowości na danych numerycznych.
+Skupiamy się na **ekstrakcji nowych zmiennych (feature extraction)** oraz ocenie jakości odwzorowania danych w przestrzeni o niższym wymiarze.
 
-Porównujemy zarówno metody klasyczne, jak i nowoczesne podejścia nieliniowe.
-
----
-
-## Cele projektu
-
-- Porównanie metod redukcji wymiarowości pod względem jakości reprezentacji danych  
-- Analiza wpływu redukcji na strukturę danych i separowalność klas  
-- Ocena przydatności metod w zadaniach uczenia maszynowego  
-- Zbadanie kompromisu między interpretowalnością a jakością odwzorowania  
-
----
-
-##  Porównywane metody
-
-###  Klasyczne
-- PCA (Principal Component Analysis)  
-- LDA (Linear Discriminant Analysis)  
-
-###  Nowoczesne / nieliniowe
-- t-SNE (t-distributed Stochastic Neighbor Embedding)  
-- UMAP (Uniform Manifold Approximation and Projection)  
-- Isomap  
-
----
-
-## Dane
-
-Projekt wykorzystuje dane numeryczne, np.:
-
-- Iris  
-- MNIST (po przekształceniu do wektorów)  
-- dane syntetyczne (blobs, moons)  
-
-Możliwe rozszerzenie:
-- rzeczywiste dane (np. finansowe, medyczne)
-
----
-
-## Metodologia
-
-1. Wstępne przetwarzanie danych (standaryzacja)  
-2. Redukcja wymiarowości (do 2D / 3D)  
-3. Wizualizacja wyników  
-4. Ewaluacja jakości odwzorowania  
-
----
-
-## Metryki ewaluacji
-
-- NMI  
-- Silhouette Score  
-- Calinski-Harabsz
-- Generalised Dunn
-
----
-
-##  Wizualizacje
-
-- Wykresy rozrzutu (2D, 3D)  
-- Porównania między metodami  
-- Analiza struktury danych po redukcji, np. clustering  
+Chcemy porównać klasyczne metody dimensionality reduction LDA i PCA z metodami nowoczesnymi/ nieliniowymi t_SNE, UMAP i Isomap.
+Dokonamy redukcji wymiarów za ich pomocą na trdycyjnych zbiorach danych MNIST i iris oraz na embedingach tesktowych celem dokonania analizy skupień  na nowo powstlych zmiennych. Porównanie obejmie zestawienie metryk jak i wizualizację. 
