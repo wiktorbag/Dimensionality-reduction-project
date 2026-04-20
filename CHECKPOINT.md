@@ -40,13 +40,13 @@ Możliwe rozszerzenie:
   
 ## Kamienie milowe
 
--5.05. Przygotowanie danych 
--19.05. Implementacja metod
--26.05 Porównanie i wizualizacja
+- 5.05. Przygotowanie danych 
+- 19.05. Implementacja metod
+- 26.05 Porównanie i wizualizacja
 
 ## Podział obowiązków 
 
--Preprocessing i porównanie - Michał Krajewski
--PCA i LDA - Zuzanna Skałka
--t-SNE - Alicja Berent
--UMAP i Isomap - Wiktor Bagiński
+- Preprocessing i porównanie - Michał Krajewski
+- PCA i LDA - Zuzanna Skałka
+- t-SNE - Alicja Berent
+- UMAP i Isomap - Wiktor Bagiński
