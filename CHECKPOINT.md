@@ -31,12 +31,14 @@ Jako baseline potraktujemy model lda.
 
 W projekcie wykorzystamy dane numeryczne, np.:
 
-- Iris  
-- MNIST (po przekształceniu do wektorów)  
+- Iris  https://www.kaggle.com/datasets/uciml/iris
+- MNIST (po przekształceniu do wektorów)  https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html
 - dane syntetyczne (blobs, moons)  
 
+- geospatial embedding google
+- https://link.springer.com/article/10.1007/s40747-021-00512-9
 Możliwe rozszerzenie:
-- 
+- https://huggingface.co/embedding-data
   
 ## Kamienie milowe
 
