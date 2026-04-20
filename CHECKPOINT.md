@@ -10,7 +10,7 @@
 
 ## BASELINE
 
-jako baseline potraktujemu model lda
+Jako baseline potraktujemy model lda.
 
 ## Metryki do ewaluacji 
 
@@ -29,11 +29,24 @@ jako baseline potraktujemu model lda
 
 ## Dane
 
-Projekt wykorzystuje dane numeryczne, np.:
+W projekcie wykorzystamy dane numeryczne, np.:
 
 - Iris  
 - MNIST (po przekształceniu do wektorów)  
 - dane syntetyczne (blobs, moons)  
 
 Możliwe rozszerzenie:
-- rzeczywiste dane (np. finansowe, medyczne)
+- 
+  
+## Kamienie milowe
+
+-5.05. Przygotowanie danych 
+-19.05. Implementacja metod
+-26.05 Porównanie i wizualizacja
+
+## Podział obowiązków 
+
+-Preprocessing i porównanie - Michał Krajewski
+-PCA i LDA - Zuzanna Skałka
+-t-SNE - Alicja Berent
+-UMAP i Isomap - Wiktor Bagiński
