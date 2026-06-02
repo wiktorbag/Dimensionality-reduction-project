@@ -5,6 +5,7 @@
       cd dim_red
       python3.14 -m venv .venv
       source .venv/bin/activate
+      git init
       git clone https://github.com/wiktorbag/Dimensionality-reduction-project/
       pip install -r requirements.txt
 
