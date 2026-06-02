@@ -34,7 +34,7 @@ Jako baseline potraktujemy model lda.
 Wykorzystamy kilka zbiorów danych m.in.
 
 - Iris  https://www.kaggle.com/datasets/uciml/iris 
-- MNIST  https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html
+- Fashon- MNIST  https://www.tensorflow.org/datasets/catalog/fashion_mnist
 - dane syntetyczne (blobs, moons)  
 
 - CLIP embeddings
