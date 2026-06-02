@@ -18,8 +18,8 @@ Jako baseline potraktujemy model lda.
 - Silhouette Score  
 - Calinski-Harabsz
 - Generalised Dunn
-- trustworthiness — czy lokalni sąsiedzi zostali zachowani
--kNN accuracy w przestrzeni po redukcji
+- trustworthiness — czy dwa punkty które były blisko siebie w przestrzeni po zrzutowaniu są nadal 
+- kNN accuracy w przestrzeni po redukcji
 
 
 ##  Wizualizacje
