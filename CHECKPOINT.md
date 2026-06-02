@@ -18,6 +18,8 @@ Jako baseline potraktujemy model lda.
 - Silhouette Score  
 - Calinski-Harabsz
 - Generalised Dunn
+- trustworthiness — czy lokalni sąsiedzi zostali zachowani
+-kNN accuracy w przestrzeni po redukcji
 
 
 ##  Wizualizacje
@@ -29,16 +31,21 @@ Jako baseline potraktujemy model lda.
 
 ## Dane
 
-W projekcie wykorzystamy dane numeryczne, np.:
+Wykorzystamy kilka zbiorów danych m.in.
 
-- Iris  https://www.kaggle.com/datasets/uciml/iris
-- MNIST (po przekształceniu do wektorów)  https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html
+- Iris  https://www.kaggle.com/datasets/uciml/iris 
+- MNIST  https://docs.pytorch.org/vision/main/generated/torchvision.datasets.MNIST.html
 - dane syntetyczne (blobs, moons)  
 
-- geospatial embedding google
-- https://link.springer.com/article/10.1007/s40747-021-00512-9
+- CLIP embeddings
 Możliwe rozszerzenie:
 - https://huggingface.co/embedding-data
+
+## 3 eksperymenty
+  1. Iris redukcja -> klasyfikacja logistic regression+k-NN
+  2. MNIST --||--
+  3. Ekmbedingi redukcja -> kalstrowanie + sprawdzamy co się dzieje tu pomysły raczej w trakcie ekperymentu moxe wyjść a moźe nie wyjść
+     
   
 ## Kamienie milowe
 
@@ -48,7 +55,7 @@ Możliwe rozszerzenie:
 
 ## Podział obowiązków 
 
-- Preprocessing i porównanie - Michał Krajewski
+- Preprocessing i porównanie + Kernel PCA - Michał Krajewski
 - PCA i LDA - Zuzanna Skałka
-- t-SNE - Alicja Berent
+- t-SNE + Autoencoder - Alicja Berent
 - UMAP i Isomap - Wiktor Bagiński
