@@ -25,7 +25,8 @@ Jako baseline potraktujemy model lda.
 ##  Wizualizacje
 
 - Wykresy rozrzutu (2D, 3D)  
-- Porównania między metodami  
+- Porównania między metodami redukcji wymiarów w wyniko klasyfikacji
+  (Kilka wymiarów do kaźdej merody 2D,3D,5D,20D,50D)
 - Analiza struktury danych po redukcji, np. clustering  
 
 
