@@ -38,9 +38,7 @@ Wykorzystamy kilka zbiorów danych m.in.
 - Fashon- MNIST  https://www.tensorflow.org/datasets/catalog/fashion_mnist
 - dane syntetyczne (blobs, moons)  
 
-- CLIP embeddings
-Możliwe rozszerzenie:
-- https://huggingface.co/embedding-data
+- BBC News 
 
 ## 3 eksperymenty
   1. Iris redukcja -> klasyfikacja logistic regression+k-NN
