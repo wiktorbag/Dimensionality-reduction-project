@@ -1,3 +1,7 @@
+import numpy as np
+
+import matplotlib.pyplot as plt
+
 class my_lda:
   def __init__(self, n_components):
     self.n_components = n_components
