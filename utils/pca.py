@@ -1,3 +1,5 @@
+import numpy as np
+
 class my_pca:
   def __init__(self, n_components):
     self.n_components = n_components
