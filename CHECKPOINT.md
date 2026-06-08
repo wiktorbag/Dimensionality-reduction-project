@@ -58,3 +58,7 @@ Wykorzystamy kilka zbiorów danych m.in.
 - PCA i LDA - Zuzanna Skałka
 - t-SNE + Autoencoder - Alicja Berent
 - UMAP i Isomap - Wiktor Bagiński
+- Zuzanna - metryki, wnioski 
+- Wiktor - eksperyment 1 opis wykresów, opis co sie dzieje na wykresach
+- Alicja - autoencodery, eksperyment 2
+- Michał, bonus, eksperyment 
