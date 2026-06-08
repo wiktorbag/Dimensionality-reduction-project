@@ -7,7 +7,7 @@ class my_lda:
     self.n_components = n_components
     self.lda_components = None
 
-  def fit(self, X, y):
+  def fit_transform(self, X, y):
     n_features = X.shape[1]
     mean_overall = np.mean(X, axis=0)
 
@@ -44,3 +44,8 @@ class my_lda:
     X_lda = np.dot(X, self.lda_components)
     df_lda = pd.DataFrame(X_lda, columns=['LDA_1', 'LDA_2'])
     return X_lda, df_lda
+  
+  def transform(self, X):
+    if self.lda_components is None:
+        raise ValueError("Model has not been fitted yet.")
+    return np.dot(X, self.lda_components)
